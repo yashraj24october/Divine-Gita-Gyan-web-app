@@ -15,11 +15,12 @@ Purpose of developing Sri Bhagavad Gita web app is to make the entire divine kno
 Done using Firebase
 Click to use 👉 : <a style="text-decoration:none" href="https://divine-gita-gyan.web.app/">Divine Gita Gyan </a>
 
-## ⭐ Web App Contains
------
+## ⭐ Features
+____
+Users can read :
 - About Srimad bhagavad gita in easy hindi language
 - Well written Summaries of  18 chapters of Srimad bhagavad gita in english and hindi language.
-- Each chapters contains list of verses/sloks with its Word meanings, English and Hindi Translations and commentaries by devotional authors in easy- understandable way.
+- List of verses/sloks in each chapter with its Word meanings, English and Hindi Translations and commentaries by devotional authors in easy- understandable way.
 ----
 
 ## 📷 Screenshots
@@ -49,6 +50,13 @@ ___
 
 - React.js
 - React-Router-Dom 
+
+## Show your Support
+__________
+Please ⭐️ this repository if this project helped you!
+
+This README is created with ❤ by Yash Raj.
+
 
 
 
