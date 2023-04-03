@@ -1,0 +1,70 @@
+.chapterBox{
+position:relative;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background:url("./pageBorder.png");
+/* background:url("../Borders/bodyBorder.png"),linear-gradient(to bottom right,rgb(3, 181, 252),rgb(255, 166, 0),rgb(3, 181, 252)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+padding-bottom: 4rem;
+/* min-height: 100vh; */
+}
+.chapterHeading{
+
+border:2px solid white;
+padding:.6rem 2rem;
+color:white;
+text-shadow: 2px 2px 3px red;
+display: inline-block;
+text-align: center;
+border-radius: .8rem;
+background: rgba(0, 110, 253, 0.425);
+margin:.8rem;
+box-shadow: 2px 2px 4px red, 2px 2px 4px red;
+/* border-image-source: url("../Borders/chapterHeaderBorder.png");
+border-image-slice: 260; */
+}
+
+.chapterSummary{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 1rem;
+background:rgb(252, 234, 203);
+margin:1rem;
+padding:.8rem;
+color:black;
+box-shadow:2px 2px 10px 4px rgb(3, 247, 166),inset 2px 2px 10px 4px rgb(255, 255, 255);
+}
+.dialog{
+border:2px solid white;
+background: rgba(255, 166, 0, 0.541);
+color:white;
+text-align: center;
+box-shadow: 2px 2px 4px blue;
+border-radius: 1.5rem;
+font-size: 1.5rem;
+padding:3px 2rem;
+margin:1rem;
+text-shadow: 2px 2px solid red;;
+}
+.slokContainerTopic{
+color:white;
+text-shadow: 2px 2px 3px red;
+border:2px solid rgba(0, 0, 255, 0.411);
+padding:.5rem 1.7rem;
+background:rgba(234, 0, 255, 0.24);
+}
+
+   .button{
+  background: rgba(0, 0, 255, 0.753);
+  color:white;
+  padding:3px 20px;
+  border-radius: .8rem;
+  font-weight: 700;
+  border:2px solid white;
+    box-shadow: 2px 2px 4px grey;
+    margin-left:.5rem;
+  }

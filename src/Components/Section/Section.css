@@ -1,0 +1,96 @@
+@media screen and (min-width:480px){
+
+.section1{
+height:85vh;
+width:100%;
+font-family: myFont;
+background:url(./sriKrishna.jpg); 
+background-size:cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:white;
+position:relative;
+}
+.heading1{
+font-size: 3rem;
+font-weight: 900;
+text-shadow: 2px 2px 4px rgb(4, 29, 248);   
+word-spacing: .8rem;
+text-align: center;
+}
+.heading2{
+text-align: center;
+font-family: myFont;
+font-size: 2.7rem;
+font-weight: 900;
+padding:1rem 5rem;
+  text-shadow: 2px 2px 4px grey;
+}
+.quote{
+font-family:'Times New Roman', Times, serif;
+font-size:2.5rem;
+color:rgb(255, 255, 255);
+text-align: center;
+text-shadow: 4px 4px 4px rgb(0, 0, 0);
+border:2px double #ffa500;
+position:relative;
+top:6rem;
+width:100%;
+background:linear-gradient(to right,rgba(0, 0, 255, 0.247),rgba(255, 255, 0, 0.356));
+}
+}
+
+@media screen and (max-width:480px){
+.section1{
+height:89vh;
+width:100%;
+background:url(./gitaPoster.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:white;
+}
+.quote{
+font-size:2rem;
+text-align: center;
+color:rgb(253, 249, 0);
+font-family: cursive;
+text-shadow: 4px 4px 6px rgb(0, 0, 0);
+border:2px double orange;
+padding:5px;
+background: rgba(255, 255, 255, 0.445);
+position: absolute;
+bottom:0;
+box-shadow: 2px 2px 50px 6px yellow;
+}
+.heading1{
+font-weight: 900;
+text-shadow: 2px 2px 4px rgb(4, 29, 248);   
+text-align: center;
+font-family: myFont;
+}
+.heading2{
+font-family: myFont;
+border-top:3px solid blue;
+border-bottom:3px solid blue;
+font-size: 2.2rem;
+text-align: center;
+text-shadow: 2px 2px 4px rgb(4, 29, 248);   
+}
+}
+
+/*general style*/
+.heading{
+margin:0;
+}
+
+.section1{
+position: relative;
+}
+

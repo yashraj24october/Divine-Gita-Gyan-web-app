@@ -1,0 +1,80 @@
+.versePageContainer{
+height:100%;
+width:100%;
+background:rgba(243, 41, 5, 0.438);
+border-top-left-radius: 1.2rem;
+border-top-right-radius: 1.2rem;
+border-top:.8rem solid rgba(5, 42, 255, 0.589);
+border-left:.8rem solid white;
+border-right:.8rem solid white;
+border-bottom: .5rem solid white;
+outline: 2px solid skyblue;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.slokHeading{
+color:rgb(255, 94, 0);
+background: rgba(255, 255, 255, 0.205);
+background-color: #fff;
+border:2px double brown;
+border-radius: 5px 5px 2px 2px;
+padding:.2rem 2rem;
+margin:1rem;
+}
+.text{
+border:.2rem solid blue;
+border-radius:.5rem;
+color: black;
+background: linear-gradient(to bottom right,rgba(255, 0, 0, 0.582),rgba(135, 207, 235, 0.692),rgba(255, 255, 255, 0.308));
+text-align: center;
+margiN:1rem;
+}
+
+.wordMeaningBox{
+border:.3rem double red;
+background:rgb(253, 253, 253);
+text-align: center;
+padding:.8rem;
+border-radius: .8rem;
+margin:.5rem .2rem;
+box-shadow:2px 2px 4px black,-2px -2px 4px skyblue;
+}
+.slokText{
+background:wheat;
+color:rgb(26, 2, 2);
+padding:.8rem;
+border-radius: .8rem;
+text-align: center;
+box-shadow:2px 2px 4px greenyellow;
+margin:0 .3rem;
+margin-bottom:3rem;
+font-size:1.5rem;
+text-shadow: 2px 2px 4px yellow;
+}
+.slokAuthor{
+position: relative;
+bottom: 1.2rem;
+border:1px solid yellowgreen;
+box-shadow: 1px 1px 4px rgb(0, 145, 241),-1px -1px  4px rgb(0, 145, 241);
+color:white;
+border-radius: .5rem;
+padding:.2rem .8rem;
+padding-bottom: .3rem;
+display: inline-block;
+text-shadow: 2px 2px 4px red;
+background:linear-gradient(to top right,rgba(0, 0, 255, 0.712),rgba(135, 207, 235, 0.767),rgba(255, 0, 0, 0.651));
+}
+
+.slokTranslationBox{
+background:white;
+padding:.8rem;
+border-radius: .8rem
+}
+.slokTranslation{
+color:brown;
+margin:2rem;
+}
