@@ -1,0 +1,19 @@
+.section2Banner{
+padding:20px;
+background:linear-gradient(to right, rgba(0, 0, 255, 0.486),rgba(255, 255, 255, 0.521))
+}
+
+.t1{
+font-family: myFont;
+color:white;
+text-shadow: 2px 2px 4px blue;
+text-align: center;
+font-style: italic;
+margin-bottom: .8rem;
+}
+.t2{
+font-family: paragraphFont;
+color:white;
+text-align: center;
+text-shadow: 2px 2px 4px red;
+}
